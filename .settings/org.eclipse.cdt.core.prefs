@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/io.sloeber.core.toolChain.release.1742399865/PATH/delimiter=;
+environment/project/io.sloeber.core.toolChain.release.1742399865/PATH/operation=replace
+environment/project/io.sloeber.core.toolChain.release.1742399865/PATH/value=${A.COMPILER.PATH}${PathDelimiter}${A.BUILD.GENERIC.PATH}${PathDelimiter}${SystemRoot}\\system32${PathDelimiter}${SystemRoot}${PathDelimiter}${SystemRoot}\\system32\\Wbem${PathDelimiter}${sloeber_path_extension}
+environment/project/io.sloeber.core.toolChain.release.1742399865/append=true
+environment/project/io.sloeber.core.toolChain.release.1742399865/appendContributed=true
