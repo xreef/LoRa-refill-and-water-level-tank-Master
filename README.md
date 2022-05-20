@@ -1,4 +1,6 @@
-# LoRa remote water tank level and pump controller (ReWaL)
+![](resources/ReWaL Logo 256.png)
+# ReWaL
+## LoRa remote water tank level and pump controller
 
 ![Cover image](https://www.mischianti.org/wp-content/uploads/2020/10/LoRa-wireless-remote-water-tank-and-pump-controller-esp8266-main-768x491.jpg)
 
@@ -22,7 +24,6 @@ First the problem: I must refill a 1,5Km far water tank, so I need two devices:
 Here is a simple demo video.
 
 [![Video of the first versione of BeePrint web interface](https://img.youtube.com/vi/hp9tmT0E_sU/hqdefault.jpg)](https://www.youtube.com/watch?v=hp9tmT0E_sU)
-
 
 ### Documentation
 1. [LoRa remote water tank level and pump controller: intro](https://www.mischianti.org/2022/05/03/lora-remote-water-tank-level-and-pump-controller-rewal-intro-1/)
