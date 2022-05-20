@@ -1,6 +1,6 @@
 ![](resources/ReWaL Logo 256.png)
 # ReWaL
-## LoRa remote water tank level and pump controller
+## LoRa remote water tank level and pump controller - Server
 
 ![Cover image](https://www.mischianti.org/wp-content/uploads/2020/10/LoRa-wireless-remote-water-tank-and-pump-controller-esp8266-main-768x491.jpg)
 
