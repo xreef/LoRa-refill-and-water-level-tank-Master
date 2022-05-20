@@ -1,4 +1,4 @@
-![](resources/ReWaL Logo 256.png)
+![Logo](resources/ReWaL%20Logo%20256.png)
 # ReWaL
 ## LoRa remote water tank level and pump controller - Server
 
