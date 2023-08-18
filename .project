@@ -34,47 +34,47 @@
 		<link>
 			<name>core/core</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/cores/esp8266</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/cores/esp8266</location>
 		</link>
 		<link>
 			<name>core/variant</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/variants/d1_mini</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/variants/d1_mini</location>
 		</link>
 		<link>
 			<name>libraries/Adafruit_BusIO</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/Adafruit_BusIO/1.8.2</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/libraries/Adafruit_BusIO/1.11.6</location>
 		</link>
 		<link>
 			<name>libraries/Adafruit_GFX_Library</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/Adafruit_GFX_Library/1.10.10</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/libraries/Adafruit_GFX_Library/1.11.5</location>
 		</link>
 		<link>
 			<name>libraries/Adafruit_SSD1306</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/Adafruit_SSD1306/2.4.6</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/libraries/Adafruit_SSD1306/2.5.7</location>
 		</link>
 		<link>
 			<name>libraries/ArduinoJson</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/ArduinoJson/6.18.3</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/libraries/ArduinoJson/6.20.0</location>
 		</link>
 		<link>
 			<name>libraries/ArduinoOTA</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/libraries/ArduinoOTA</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/libraries/ArduinoOTA</location>
 		</link>
 		<link>
 			<name>libraries/ESP8266WiFi</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266WiFi</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/libraries/ESP8266WiFi</location>
 		</link>
 		<link>
 			<name>libraries/ESP8266mDNS</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/libraries/ESP8266mDNS</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/libraries/ESP8266mDNS</location>
 		</link>
 		<link>
 			<name>libraries/LoRa_E32_Series_Library</name>
@@ -89,17 +89,17 @@
 		<link>
 			<name>libraries/SPI</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/libraries/SPI</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/libraries/SPI</location>
 		</link>
 		<link>
 			<name>libraries/SoftwareSerial</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/libraries/SoftwareSerial</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/libraries/SoftwareSerial</location>
 		</link>
 		<link>
 			<name>libraries/Wire</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/3.0.2/libraries/Wire</locationURI>
+			<location>D:/program/Sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.7.4/libraries/Wire</location>
 		</link>
 	</linkedResources>
 </projectDescription>

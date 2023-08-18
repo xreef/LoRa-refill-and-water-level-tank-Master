@@ -42,6 +42,8 @@ LoRa_E32 e32ttl(&Serial, D5, D0, D8);
 
 #define SERIAL_DEBUG Serial1
 
+#define START_ON_BOOT
+
 #define ENCODER_PIN_A P0
 #define ENCODER_PIN_B P1
 #define ENCODER_BUTTON P2
@@ -94,6 +96,9 @@ unsigned long pumpActiveTime = 0;
 OPERATION_MODE operationalSelected = OPERATION_NORMAL;
 ACION_MODE actionSelected = ACTION_AUTO;
 
+bool changed = false;
+bool changedButton = false;
+
 void setup()
 {
 delay(4000);
@@ -104,8 +109,8 @@ delay(4000);
 	  }		// encoder pins
 
 #ifdef ACTIVATE_OTA
-	const char* ssid = "reef-casa-sopra";
-	const char* password = "aabbccdd77";
+	const char* ssid = "YOUR-SSID";
+	const char* password = "YOUR-PASSWD";
 
 	delay(100);
 	SERIAL_DEBUG.flush();
@@ -113,12 +118,16 @@ delay(4000);
 	SERIAL_DEBUG.println("Booting");
 	WiFi.mode(WIFI_STA);
 	WiFi.begin(ssid, password);
-	while (WiFi.waitForConnectResult() != WL_CONNECTED) {
-		SERIAL_DEBUG.println("Connection Failed! Rebooting...");
-	  delay(5000);
-	  ESP.restart();
-	}
-	delay(1000);
+//	while (WiFi.waitForConnectResult(20000) != WL_CONNECTED) {
+//		SERIAL_DEBUG.println("Connection Failed!");
+////	  delay(5000);
+////	  ESP.restart();
+//	}
+
+	delay(4000);
+
+	if (WiFi.status() == WL_CONNECTED) {
+//	delay(1000);
 	SERIAL_DEBUG.println("Ready");
 	SERIAL_DEBUG.print("IP address: ");
 	SERIAL_DEBUG.println(WiFi.localIP());
@@ -155,6 +164,7 @@ delay(4000);
 		}
 	  });
 	  ArduinoOTA.begin();
+	}
 #endif
 
 	  // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
@@ -226,11 +236,18 @@ delay(4000);
 
 		  renderScreen(SCREEN_MAIN);
 
+#ifdef START_ON_BOOT
+		  changed = true;
+		  changedButton = true;
+
+		  currentScreen = SCREEN_MAIN;
+		  encoderValue = PUMP_START_MENU;
+#endif
 }
 
-bool changed = false;
-bool changedButton = false;
-
+//bool changed = false;
+//bool changedButton = false;
+//
 unsigned long timePassed = millis();
 unsigned long interval = 1000;
 unsigned long maxTimeWithoutPingMessage = 15000;
